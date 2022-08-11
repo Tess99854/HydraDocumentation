@@ -12,7 +12,7 @@ Once your wallet is connected, you will be able to see two links in the navigati
 
 On the wallet creation page, you have to specify a _unique name_ for your Hydra wallet, the _membership model_, and the _total number of shares_.
 
-The total number of shares is used in the distribution of funds, where the fraction of funds a certain member gets is the fraction of their shares from the total shares. For example, let's say the total number of shares is 100, one member has 50 shares, then this member gets half the distributed funds of the Hydra wallet.
+The total number of shares is needed for fund distribution. The sum of the shares allocated to each member of the wallet should be equal to the total number of shares specified when it was created.
 
 You can also specify whether your Hydra wallet accepts a certain SPL token by checking the "Accept SPL Tokens" checkbox and providing the mint public key of the SPL token.
 
